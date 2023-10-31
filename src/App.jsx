@@ -22,7 +22,7 @@ function App () {
         </div>
         <div className='col-md-6'>
           <h2 className='mt-4'>HTML Output</h2>
-          <div id='previewer' className='markdown-previewer border'>
+          <div id='preview' className='markdown-previewer border'>
             <ReactMarkdown>{markdownText}</ReactMarkdown>
           </div>
         </div>
